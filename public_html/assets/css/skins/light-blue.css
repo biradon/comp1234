@@ -1,0 +1,8 @@
+.profile-preword > span:before{
+    border-left-color: #FFB100;
+}
+.profile-preword > span,
+.profile-footer{
+  background-color: #FFB100;
+  color:#fff;
+}
