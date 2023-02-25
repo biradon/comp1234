@@ -1,0 +1,115 @@
+*{
+    font-family: monospace;
+    color: #03001C;
+    font-size: 16px;
+}
+
+#gbc_logo{
+    position: absolute;
+    right: 5px;
+    margin: auto;
+    padding: 10px 12px;
+}
+
+h1{
+    text-shadow: 2px 2px #B99B6B;
+}
+
+h1::first-letter{
+    color:#FC7300;
+    font-size: 50px;
+}
+
+#header-h1{
+    font-size:48px;
+}
+
+body  {
+    background-image: url("../img/background.jpg");
+  }
+
+.header{
+    border: 2px solid black;
+    margin: 4px auto;
+    padding: 5px;
+    width: auto;
+    height: auto;
+}
+
+.list-link {
+    list-style-type: none;
+    overflow: hidden;
+    margin: auto;
+    padding: 10px 10px;
+}
+
+.list-link li{
+    float:left;
+}
+
+.list-link a{
+    display: block;
+    padding: 10px;
+    margin: 5px 5px 5px 5px;
+    color:#567189;
+    text-decoration: underline;
+}
+
+.list-link a:focus{
+    color: red;
+}
+
+.list-link a:hover{
+    background-color: #FC7300;
+}
+
+#welcome li:nth-child(even){
+    background-color:  #CDE990;
+    max-width: fit-content;
+}
+
+
+#welcome-button1{
+    background-color: #F48484;
+    border-radius: 8px;
+    padding: 0.6rem;
+    box-shadow: 0 4px 10px rgba(255, 265, 0, 0.5);
+    margin: 1rem;
+}
+
+#welcome-button2{
+    background-color: #C3ACD0;
+    border-radius: 8px;
+    padding: 0.6rem;
+    box-shadow: 0 4px 10px rgba(255, 265, 0, 0.5);
+    margin: 1rem;
+}
+
+.column1, .column2 {
+    float: left;
+    width: 50%;
+    padding: 5px;
+    align-items: center;
+  }
+  
+  .row {
+    /* clear: both;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%; */
+    text-align: center
+  }
+
+  #fig-caption{
+    text-align: center;
+  }
+
+  #academics li:nth-child(even){
+    background-color:  #CDE990;
+    max-width: fit-content;
+  }
+
+  footer{
+    background-image: linear-gradient(#FFD4D4, #FFFFE8, #CDE990, #AACB73)
+  }
