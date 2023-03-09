@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+table, thead td{
+    border: 1px solid;
+    padding: 10px;
+    border-spacing: 5px;
+    /* border-collapse: collapse; */
+}
+
+.invoice-table thead tr{
+    border-bottom: 2px dashed grey;
+}
+
+.invoice-table tfoot tr{
+    border-top: 2px dashed grey;
+}
+
+.invoice-table tfoot tr td:nth-last-child(1){
+    text-align: right;
+}
+
+.invoice-table tbody tr td{
+    font-size: 18px;
+    letter-spacing: 1px;
+    color: darkgoldenrod;
+    padding: 8px;
+}
+
+.invoice-table thead tr td:nth-last-child(1),
+.invoice-table thead tr td:nth-last-child(2),
+.invoice-table thead tr td:nth-last-child(3)
+{
+    text-align: right;
+}
+
+.invoice-table tbody span{
+    font-size: 12px;
+    font-style: italic;
+    color: gray;
+}
+
+.invoice-table thead{
+    background-color: grey;
+}
+
+tfoot tr>td{
+    text-align: center;
+}
+
+.invoice-table{
+    border-collapse: collapse;
+    width: 24em;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 0 16px 30px rgba(0, 0, 0, 15);
+    margin: 25px auto;
+}
+
+body tr:hover{
+    background-color: orange;
+}
