@@ -1,0 +1,40 @@
+:root{
+    --font-color: green;
+    --font-color: orange;
+}
+
+
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height:100vh;
+    font-family: sans-serif;
+}
+
+.container{
+    width: 600px;
+    background-color: aliceblue;
+}
+
+.form-group{
+    margin-bottom: 1.5em;
+}
+
+.form-label{
+    font-size: 0.75em;
+    color:var(--font-color);
+    display:block;
+    opacity: 0.5;
+    font-size: 15px;
+}
+
+.form-control::placeholder{
+    color: red;
+}
+
+.form-control:focus{
+    box-shadow: none;
+    border-color: var(--font-color);
+}
