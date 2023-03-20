@@ -1,0 +1,38 @@
+
+body {
+    background-color: #CCD5AE;
+}
+
+table{
+    margin: auto;
+    align-items: center;
+}
+
+
+table, thead, tbody, tfoot, tr, td{
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+table caption{
+    font-weight: bold;
+}
+
+table thead{
+    font-weight: bold;
+    border-top: 5px solid #FAEDCD;
+}
+
+table tbody tr:nth-child(odd){
+    background-color: #E9EDC9;
+}
+
+table tr:hover{
+    background-color: #FEFAE0;
+}
+
+table td{
+    padding: 2px 5px 2px 5px;
+}
+
+

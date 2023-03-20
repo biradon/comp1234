@@ -1,0 +1,169 @@
+.app-form{
+    background-color: #FEFAE0;
+    width:100%;
+}
+
+.container{
+    width: 30%;
+}
+
+.form-group{
+    width:100%;
+    margin-bottom: 15px;
+}
+
+.form-control{
+    margin-bottom: 5px;
+    width: 100%;
+}
+
+.form-label{
+    display: block;
+    font-size: 15px;
+}
+
+
+/* Control middle form */
+.date, .dob, .password, .age{
+    display: inline-flex;
+    width: 100%;
+}
+
+.form-label-middle{
+    width: 40%;
+}
+
+.form-control-middle{
+    justify-content: left;
+}
+
+/* Control checkbox form */
+.form-group-food{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.food-pizza, .food-hamburger{
+    width:100%;
+    display: inline-flex;
+}
+
+.form-label-food{
+    width: 40%;
+}
+
+/* Control radio form */
+.form-group-sports{
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.sports-soccer, .sports-volleyball{
+    width:100%;
+    display: inline-flex;
+}
+
+.form-label-sports{
+    width: 40%;
+}
+
+/* Eye Color */
+.form-group-eyes{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.form-label-eyes{
+    width: 40%;
+}
+
+/* File  */
+.form-group-file{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.form-label-file{
+    width: 40%;
+}
+
+/* Phone  */
+.form-group-phone{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.form-label-phone{
+    width: 40%;
+}
+
+/* URL  */
+.form-group-url{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.form-label-url{
+    width: 40%;
+}
+
+
+/* Color  */
+.form-group-color{
+    width: 100%;
+    margin-bottom: 10px;
+    display: inline-flex;
+}
+
+.form-label-color{
+    width: 40%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*button group*/
+.button-group{
+    display:inline-flex;
+    width: auto;
+    justify-content:space-around;
+}
+
+.btn-reset{
+    width: 100px;
+    height: 30px;
+    padding: 5px 20px 5px 20px;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+.btn-send{
+    width: auto;
+    padding: 5px 20px 5px 20px;
+    height: auto;
+    border-radius: 20px;
+    margin: 5px;
+}
+
+
+
+
+
+

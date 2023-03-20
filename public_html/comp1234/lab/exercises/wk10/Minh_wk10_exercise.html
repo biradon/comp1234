@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Week 10 exercise</title>
+    <meta name="description" content="Week 10 exercise">
+    <meta name="keywords" content="Week 10 exercise"> 
+    <meta name="author" content="Chau Minh Truong">
+    <link href="favicon.ico" rel="shortcut icon">
+    <link rel="stylesheet" href="assets/css/main.css">
+</head>
+
+<body>
+    <fieldset class="app-form">
+        <legend>Application Form</legend>
+        <div class="container">
+            <div class="form-group">
+                <label for="name" class="form-label">Name</label>
+                <input type="text" class="form-control" name="name" id="name" placeholder="Your name" tabindex="1" required>
+
+                <label for="subject" class="form-label">Subject</label>
+                <input type="text" class="form-control" name="subject" id="subject" placeholder="COMP1234 Week 10" tabindex="2" required>
+
+                <label for="email" class="form-label">Email</label>
+                <input type="email" class="form-control" name="email" id="email" placeholder="firstname.lastname@georgebrown.ca" tabindex="3" required>
+
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" rows="5" cols="50" id="message" placeholder="Your Message..." tabindex="4"></textarea>
+                
+                <div class="middle">
+                    <div class="date">
+                        <label for="date" class="form-label-middle">Date</label>
+                        <input type="date" class="form-control-middle" id="date" tabindex="5"></input>
+                    </div>
+
+                    <div class="dob">
+                        <label for="dob" class="form-label-middle">DOB</label>
+                        <input type="date" class="form-control-middle" id="dob" max="2023-01-01" tabindex="6"></input>
+                    
+                    </div>
+
+                    <div class="age">
+                        <label for="age" class="form-label-middle">Age</label>
+                        <input type="number" class="form-control-middle" id="age" min="12" tabindex="7"></input>
+                    </div>
+
+                    <div class="password">
+                        <label for="password" class="form-label-middle">Password</label>
+                        <input type="password" class="form-control-middle" name="password" id="password" placeholder="Your password" tabindex="8" required>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="form-group-food">
+                <fieldset>
+                    <legend>Favorite Foods</legend>
+                    <div class="food-pizza">
+                        <label for="pizza" class="form-label-food">Pizza</label>
+                        <input type="checkbox" class="form-control-food" id="pizza"></input>
+                    </div>
+
+                    <div class="food-hamburger">
+                        <label for="hamburger" class="form-label-food">Hamburger</label>
+                        <input type="checkbox" class="form-control-food" id="hamburger"></input>
+                    </div>
+                </fieldset>
+            </div>    
+
+            <div class="form-group-sports">
+                    <fieldset>
+                        <legend>Favorite Sports</legend>
+                        <div class="sports">
+                            <div class="sports-soccer">
+                                <label for="soccer" class="form-label-sports">Soccer</label>
+                                <input type="radio" class="form-control-sports" id="soccer"></input>
+                            </div>
+        
+                            <div class="sports-volleyball">
+                                <label for="hamburger" class="form-label-sports">Volleyball</label>
+                                <input type="radio" class="form-control-sports" id="volleyball"></input>
+                            </div>
+                    </fieldset>
+            </div>
+
+            <div class="form-group-eyes">
+                <label for="eye-colors" class="form-label-eyes">Eye Color</label>
+                <select name="eye-colors" class="form-control-eyes" id="eye-colors" multiple>
+                    <option value="blue">Hazel</option>
+                    <option value="brown">Brown</option>
+                </select>
+            </div>
+
+            <div class="form-group-file">
+                <label for="file" class="form-label-file">File</label>
+                <input type="file" id="file" class="form-control-file" name="file">
+            </div>
+
+            <div class="form-group-phone">
+                <label for="phone" class="form-label-phone">Phone</label>
+                <input type="tel" id="phone" class="form-control-phone" name="phone">
+            </div>
+
+            <div class="form-group-url">
+                <label for="url" class="form-label-url">URL</label>
+                <input type="url" id="url" class="form-control-url" name="url">
+            </div>
+
+            <div class="form-group-color">
+                <label for="color" class="form-label-color">Color</label>
+                <input type="color" id="color" class="form-control-color" name="color">
+            </div>
+
+            <div class="button-group">
+                <button class="btn-reset" type="reset" >Reset</button>
+                <button class="btn-send" type="submit">Send Message</button>
+            </div>
+
+        </div>
+    </fieldset>
+
+<br>
+<br>
+
+<script src="https://my.gblearn.com/js/loadscript.js"></script>
+
+
+</body>
+</html>
