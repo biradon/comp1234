@@ -15,7 +15,7 @@ while (!isNaN(lastName) || lastName.length < 1);
 
 //Ask program with default is Computer System Analyst
 var program = prompt('Please enter your program name:', 'Computer Programming and Analysis')
-if (program == '') {
+if (program == '' || program == null) {
     program = 'Computer System Analyst';
 }
 
@@ -23,7 +23,7 @@ if (program == '') {
 //Ask year with default is 1
 do {
     var year = prompt('Please enter your year of study:', '1')
-    if (year == '') {
+    if (year == '' || year == null) {
         year = '1';
     }    
 }
@@ -38,9 +38,3 @@ document.getElementById('year_of_study').innerHTML = 'Year of study: ' + year;
 console.log("Full name: " + firstName + ' ' + lastName);
 console.log("Program name: " +  program);
 console.log("Year of study: " + year);
-
-
-
-
-
-
